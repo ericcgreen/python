@@ -1,3 +1,6 @@
+### Our Application
+We started working with a blog post, but then discovered the admin features of backend database creation and user authentication and started UI development.
+
 ### Why did you choose this subject?
 1. Eric - I chose this language and framework because it knowing both and how use them are very in demand skills have.
 
@@ -71,3 +74,9 @@ No...
 Brew install Python.
 pip install django.
 pip install virtualenv
+./manage.py createsuperuser
+./manage.py makemigrations text_me
+./manage.py migrate text_me
+virtualenv -p /usr/local/bin/python3 env
+source env/bin/activate
+./manage.py shell
