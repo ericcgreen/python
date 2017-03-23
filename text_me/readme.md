@@ -80,3 +80,7 @@ pip install virtualenv
 virtualenv -p /usr/local/bin/python3 env
 source env/bin/activate
 ./manage.py shell
+
+navigate to http://127.0.0.1:8000/admin for login to admin page and database blog creation
+or
+navigate to http://127.0.0.1:8000/
